@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: black;
+}
+
+
+/*Navigaation bars*/
+
+.navbar {
+    display: flex;
+    justify-content:flex-end;
+    align-items: center;
+    background-color:aquamarine;
+    position: sticky;
+    top:0;
+}
+
+.navbar ul {
+    display: flex;
+    list-style: none;
+    margin: 20px 0px;
+}
+
+.navbar ul li {
+    font-family: century;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: black;
+    padding: 8px 25px;
+    transition: all .5s ease;
+}
+
+.navbar ul li a:hover {
+    background-color: white;
+    color: black;
+    box-shadow: 0 0 10px white;
+}
+
+section.box1 {
+    display: flex;
+    margin-right: 0;
+    padding: 5px;
+    text-align: right;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    background: rgb(216, 232, 216);
+    border-radius: 5px;
+}
+
+img {
+    float: left;
+    border-radius: 100%;
+    border: 1px solid;
+    box-shadow: 10px;
+    width: 60%;
+    height: 80%;
+    margin: 0;
+    padding: 0;
+}
+
+section.box2 {
+    padding-top: .2rem;
+    text-align: center;
+    background:rgb(212, 226, 226);
+}
+
+section ul li {
+    list-style: none;
+    padding: .5rem;
+    font-family: 'Ubuntu Mono', monospace;
+}
+
+
+h2 {
+    float: center;
+    color: rgb(47, 128, 131);
+    padding: .5rem;
+    font-family: 'Lobster', cursive;
+
+}
+
+div.box2. {
+    padding: 10px;
+    font-family: 'Ubuntu Mono', monospace;
+}
+
+strong {
+    color: black;
+}
+
+/*Footer-Section*/
+
+.footer_top {
+    background: khaki;
+    padding: 30px;
+    margin: 0;
+}
+
+.footer-social-icons {
+    width: 100%;
+    height: auto;
+    margin: auto;
+}
+
+.footer-social-icons ul {
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
+
+.footer-social-icons ul li {
+    display: inline;
+    width: 50px;
+    height: 50px;
+    margin: 0px 10px;
+    border-radius: 100%;
+    background: aquamarine;
+}
+
+.footer-social-icons ul li a {
+    color: #272727;
+    font-size: 25px;
+}
+
+.footer-social-icons {
+    line-height: 50px;
+}
